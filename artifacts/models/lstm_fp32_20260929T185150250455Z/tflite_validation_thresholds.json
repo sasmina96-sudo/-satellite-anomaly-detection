@@ -1,0 +1,32 @@
+{
+  "selection_data": "validation",
+  "selection_rule": "maximum_f1_highest_threshold_on_ties",
+  "segment_aggregation": "max_window_mse",
+  "results": [
+    {
+      "model": "TFLite FP32",
+      "threshold": 0.021609456431671857,
+      "precision": 0.9787234042553191,
+      "recall": 0.6764705882352942,
+      "f1": 0.8,
+      "roc_auc": 0.8864569083447331,
+      "average_precision": 0.8264341941441941,
+      "false_alarms": 1,
+      "missed": 22,
+      "detected": 46
+    },
+    {
+      "model": "TFLite INT8",
+      "threshold": 0.04043285887871799,
+      "precision": 0.7419354838709677,
+      "recall": 0.6764705882352942,
+      "f1": 0.7076923076923077,
+      "roc_auc": 0.8209074327405381,
+      "average_precision": 0.7584499840611479,
+      "false_alarms": 16,
+      "missed": 22,
+      "detected": 46
+    }
+  ],
+  "test_evaluated": false
+}

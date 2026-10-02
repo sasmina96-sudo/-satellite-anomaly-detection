@@ -1,0 +1,31 @@
+{
+  "locked_at_utc": "2026-10-01T17:46:20.836776+00:00",
+  "evaluation_unit": "segment",
+  "window_error": "mse_against_original_scaled_input",
+  "segment_aggregation": "max",
+  "prediction_rule": "score >= threshold",
+  "threshold_source": "validation_only_separately_per_model",
+  "models": [
+    {
+      "model": "TFLite FP32",
+      "file": "model_fp32.tflite",
+      "sha256": "548b6f7f1f84e0292ac6c2a46f4f5fdbf8a18eac125d3a703f3fbe04a8d07c82",
+      "size_bytes": 58024,
+      "threshold": 0.021609456431671857
+    },
+    {
+      "model": "TFLite INT8",
+      "file": "model_int8.tflite",
+      "sha256": "b366190ef5fc0ce5f51daf35a67335f7870edf193a3acb00b78218135799dbea",
+      "size_bytes": 77592,
+      "threshold": 0.04043285887871799
+    }
+  ],
+  "test_policy": "evaluate_both_models_without_further_test_based_tuning",
+  "latency_plan": {
+    "runtime": "tf.lite.Interpreter",
+    "num_threads": 1,
+    "batch_size": 1,
+    "environment": "Colab CPU; not satellite hardware"
+  }
+}

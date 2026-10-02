@@ -1,0 +1,11 @@
+{
+  "tensorflow_version": "2.20.0",
+  "conversion": "frozen_concrete_function",
+  "model_size_bytes": 58024,
+  "validation_windows_checked": 256,
+  "max_absolute_difference": 1.1920928955078125e-06,
+  "mean_absolute_difference": 2.1904591562815767e-07,
+  "rtol": 0.0001,
+  "atol": 1e-05,
+  "numerical_check_passed": true
+}

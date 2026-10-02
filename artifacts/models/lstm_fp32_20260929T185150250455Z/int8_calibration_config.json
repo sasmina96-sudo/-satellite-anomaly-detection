@@ -1,0 +1,8 @@
+{
+  "seed": 42,
+  "source": "normal_training_windows_only",
+  "selection": "up_to_128_random_per_channel_plus_min_max_windows",
+  "windows": 967,
+  "input_min": -2.4442663192749023,
+  "input_max": 5.517440319061279
+}

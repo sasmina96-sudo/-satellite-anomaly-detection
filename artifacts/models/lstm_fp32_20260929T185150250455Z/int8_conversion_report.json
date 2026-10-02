@@ -1,0 +1,13 @@
+{
+  "tensorflow_version": "2.20.0",
+  "calibration_windows": 967,
+  "fp32_bytes": 58024,
+  "int8_bytes": 77592,
+  "size_ratio_fp32_over_int8": 0.747809052479637,
+  "input_scale": 0.031222378835082054,
+  "input_zero_point": -50,
+  "output_scale": 0.03194279968738556,
+  "output_zero_point": -53,
+  "floating_tensor_count": 0,
+  "smoke_test_passed": true
+}

@@ -1,0 +1,2 @@
+channel,segment,anomaly_keras,max_score,tflite_score,keras_margin,tflite_margin,score_difference
+CADC0872,166,1,0.021609480881720634,0.021609456431671857,3.469446951953614e-17,-2.4450048742574726e-08,-2.4450048777269195e-08

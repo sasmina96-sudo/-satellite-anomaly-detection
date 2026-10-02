@@ -1,0 +1,21 @@
+{
+  "model": "TFLite INT8",
+  "threshold": 0.0216094808817206,
+  "precision": 0.2893401015228426,
+  "recall": 0.8382352941176471,
+  "f1": 0.43018867924528303,
+  "roc_auc": 0.8209074327405381,
+  "average_precision": 0.7584499840611479,
+  "confusion_matrix": [
+    [
+      118,
+      140
+    ],
+    [
+      11,
+      57
+    ]
+  ],
+  "clipped_window_value_fraction": 0.0,
+  "segments_with_clipping": 0
+}

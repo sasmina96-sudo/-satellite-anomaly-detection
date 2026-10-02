@@ -1,0 +1,11 @@
+{
+  "evaluation_set": "validation",
+  "score": "mean_window_mse_per_segment",
+  "threshold_selection": "maximum_validation_f1",
+  "threshold": 0.002197719445701078,
+  "precision": 0.46236559139784944,
+  "recall": 0.6323529411764706,
+  "f1": 0.5341614906832298,
+  "roc_auc": 0.7600889192886457,
+  "average_precision": 0.5975541855242132
+}

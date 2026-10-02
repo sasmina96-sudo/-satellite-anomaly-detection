@@ -1,0 +1,24 @@
+{
+  "tensorflow": "2.20.0",
+  "python": "3.13.15",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+  "runtime": "tf.lite.Interpreter",
+  "delegate_policy": "default",
+  "num_threads": 1,
+  "batch_size": 1,
+  "warmup_calls_per_model": 100,
+  "repeats": 6,
+  "timed_operations": [
+    "set_tensor",
+    "invoke",
+    "get_tensor"
+  ],
+  "excluded": [
+    "scaling",
+    "window_creation",
+    "input_quantization",
+    "output_dequantization",
+    "anomaly_scoring"
+  ]
+}
