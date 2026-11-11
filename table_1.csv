@@ -1,0 +1,5 @@
+Cohort,Model,FP32 F1,INT8 F1,Mean change,SD of change
+OPS-SAT validation,LSTM,0.7962 +/- 0.0189,0.7085 +/- 0.0324,-0.0877,0.0175
+OPS-SAT validation,Dense,0.8049 +/- 0.0188,0.8015 +/- 0.0220,-0.0034,0.0042
+ESA confirmation,LSTM,0.3249 +/- 0.0178,0.3309 +/- 0.0080,+0.0060,0.0144
+ESA confirmation,Dense,0.3178 +/- 0.0217,0.3314 +/- 0.0234,+0.0137,0.0019

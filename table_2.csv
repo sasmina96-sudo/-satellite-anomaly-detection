@@ -1,0 +1,13 @@
+Cohort,Model,Seed,FP32 F1,INT8 F1,Change
+OPS-SAT validation,LSTM,42,0.7748,0.6724,-0.1024
+OPS-SAT validation,LSTM,43,0.8034,0.7350,-0.0684
+OPS-SAT validation,LSTM,44,0.8103,0.7179,-0.0924
+OPS-SAT validation,Dense,42,0.7869,0.7788,-0.0081
+OPS-SAT validation,Dense,43,0.8034,0.8033,-0.0001
+OPS-SAT validation,Dense,44,0.8244,0.8226,-0.0018
+ESA confirmation,LSTM,42,0.3098,0.3219,+0.0121
+ESA confirmation,LSTM,43,0.3445,0.3340,-0.0105
+ESA confirmation,LSTM,44,0.3205,0.3369,+0.0164
+ESA confirmation,Dense,42,0.3379,0.3526,+0.0147
+ESA confirmation,Dense,43,0.2948,0.3063,+0.0114
+ESA confirmation,Dense,44,0.3205,0.3354,+0.0148

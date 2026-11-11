@@ -1,0 +1,18 @@
+{
+  "epochs_run": 30,
+  "best_epoch": 30,
+  "best_val_mse": 0.00045799813233315945,
+  "train_seconds": 25.8,
+  "fp32_max_abs_diff_vs_keras": 7.152557373046875e-07,
+  "default_quantizer_float_tensors": 0,
+  "cohort": "OPS-SAT",
+  "arch": "dense",
+  "seed": 43,
+  "params": 428,
+  "fp32_bytes": 4140,
+  "int8_bytes": 5112,
+  "fp32_sha256": "744f6298fab6d07b0a06cfe2d1d051ef974148d509faa4b42ecdb417c67f0127",
+  "int8_sha256": "852e3eb16103b3d59ab748e1714f96ee82638a1aa3fa492f125a9f8eb0605676",
+  "int8_float_tensors": 0,
+  "int8_tensors": 17
+}

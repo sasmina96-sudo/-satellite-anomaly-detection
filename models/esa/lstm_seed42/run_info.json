@@ -1,0 +1,18 @@
+{
+  "epochs_run": 30,
+  "best_epoch": 30,
+  "best_val_mse": 0.09613851457834244,
+  "train_seconds": 67.3,
+  "fp32_max_abs_diff_vs_keras": 9.059906005859375e-06,
+  "default_quantizer_float_tensors": 0,
+  "cohort": "ESA",
+  "arch": "lstm",
+  "seed": 42,
+  "params": 3281,
+  "fp32_bytes": 58876,
+  "int8_bytes": 75976,
+  "fp32_sha256": "5a3ee397b9932ac777797251303b62f0d31a3ffe1186b34c5d362b929c46ac1b",
+  "int8_sha256": "8564ebf4b23fadfbc601ba0d2e8e83c2b55585c9b43b9b72c7dd4b7fe558a7cc",
+  "int8_float_tensors": 0,
+  "int8_tensors": 361
+}

@@ -1,0 +1,11 @@
+{
+  "n_tensors": 362,
+  "float_tensors": 0,
+  "float_tensor_names": [],
+  "dtype_counts": {
+    "int8": 336,
+    "int32": 26
+  },
+  "input_dtype": "int8",
+  "output_dtype": "int8"
+}

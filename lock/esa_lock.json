@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-11-08T18:39:48.619218+00:00",
+  "statement": "Internal protocol lock (not an external preregistration). All models, thresholds, preprocessing artifacts, labels, baseline parameters and evaluator code are fixed below; every declared run, condition and target is evaluated once, without revision.",
+  "confirmation_interval": "2001-10-01 (included) to 2002-10-01 (excluded)",
+  "targets": [
+    "anomaly or rare event (primary)",
+    "anomaly only (secondary)"
+  ],
+  "conditions": [
+    "fp32_f1",
+    "int8_f1",
+    "int8_transfer",
+    "fp32_p99",
+    "int8_p99",
+    "f1",
+    "p99"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "files": {
+    "models/esa/baselines_pca4.npz": "b5f461d81cd5fe47235fab3b705c6a07286fd8cb8dba59163f373fc879181335",
+    "models/esa/dense_seed42/best_model.keras": "c5735e9ec75bc07e1d9d8cef4072a822200180ac17305c6bf2fe1fc2fdadc2fe",
+    "models/esa/dense_seed42/calibration_scores.npz": "992eb7c51dc367b07a592a11ee8e5ff93279dc3c7de5f33e0bece563ab05262f",
+    "models/esa/dense_seed42/model_fp32.tflite": "2bf6db7249b9890df99ee41ec3ace20ea8264142755c48a793066da686cd2d0d",
+    "models/esa/dense_seed42/model_int8.tflite": "6ce91b94fcb2754e7c7bc6f26aa87312fa2866966f8abc6740faa4d587bcc658",
+    "models/esa/dense_seed43/best_model.keras": "d7a80f9d8069e5727663f98484cc6bf75dad34f87a7aba474da7bea71dd047cd",
+    "models/esa/dense_seed43/calibration_scores.npz": "c82270eb324d524eedf6fb2f6fc2ee8ee816c80abb1a95b36c214592fc8d2927",
+    "models/esa/dense_seed43/model_fp32.tflite": "c42dd13ca2b9c9874002b4b7bf72d8a7f4ae71e00d3092b75e6f7187d0add713",
+    "models/esa/dense_seed43/model_int8.tflite": "e858fd404f0653d49c73e216206fc44a0bf0dd12fef1c06a1e557bf40b48eab9",
+    "models/esa/dense_seed44/best_model.keras": "46628638668225de90ff655601d18195996c9d722a1c3816b4919d6202346bac",
+    "models/esa/dense_seed44/calibration_scores.npz": "cc707a6b8c57fd3f02d0079facaa0e3c9ef5b6afd588435c7432c45c9cb38dc0",
+    "models/esa/dense_seed44/model_fp32.tflite": "c60e0ef3c40d69f1bc08d0ae44a45a35e0432398bb1842d040d736e02539590d",
+    "models/esa/dense_seed44/model_int8.tflite": "6fbb087aec59cb08bbc89d8258def14cea5f3c920f79ec3bdb761130e9174040",
+    "models/esa/lstm_seed42/best_model.keras": "c373ac9cbf63c44b3989c99d198859c2fe4fe3748e33cba08e03dbcadbe3e141",
+    "models/esa/lstm_seed42/calibration_scores.npz": "11596960142036a6fb8781a2079eca30029eb7e7f64e9ad2d63af4da3916ae4b",
+    "models/esa/lstm_seed42/model_fp32.tflite": "5a3ee397b9932ac777797251303b62f0d31a3ffe1186b34c5d362b929c46ac1b",
+    "models/esa/lstm_seed42/model_int8.tflite": "8564ebf4b23fadfbc601ba0d2e8e83c2b55585c9b43b9b72c7dd4b7fe558a7cc",
+    "models/esa/lstm_seed43/best_model.keras": "c7ae050d4d442b489f34af57f7101c02214639f1c61707c97ad34f46ba6736f9",
+    "models/esa/lstm_seed43/calibration_scores.npz": "e01a3cb5ee5cabe1b5239aaccbd0e45c4b428ad043a44fbcb2903854c2545357",
+    "models/esa/lstm_seed43/model_fp32.tflite": "97c7983eb3502a573594db01cb2c26726dab5aa8f7ce4e0e7d1fc4e0845e2982",
+    "models/esa/lstm_seed43/model_int8.tflite": "5595f29d0a5abd34dd941d4e6e0ad953eb9d8ab859e4aef8e5295497858ea0af",
+    "models/esa/lstm_seed44/best_model.keras": "b6a9da584846e81977527756fb1bfd5dac1ab8d2aef834432039ff5cd0453274",
+    "models/esa/lstm_seed44/calibration_scores.npz": "07366bce98c60dcf23e20dfa13287d1e157b4e50099fc5e9c29d87b3d0b82b17",
+    "models/esa/lstm_seed44/model_fp32.tflite": "8ac3b2530019e89a84815ff1f757b56cea64a36419546b39ecb01026e1645392",
+    "models/esa/lstm_seed44/model_int8.tflite": "c0f0221d75f9cfe7e41d249a4cbbeb78b019cdaae3899109830a57450829dca5",
+    "lock/esa_thresholds.json": "8f353d809f9a88355f202c8e9362f47c414d953620af3d05037b66988b7f1a54",
+    "data/esa_scaler.json": "9a70e26d24fd6c7a3141482f1d4bb68e27535034436ae3476948f4945f82428f",
+    "data/esa_blocks.csv.gz": "a6874e713ebf2b6118c65d2087e08ac5e2f5f00783cefaf5db2a4ceb5d12faf6",
+    "data/esa_block_events.csv.gz": "20ace7778698e653c4e1fc68842836ec841edcdf5e2d498706b1a732759736db",
+    "data/esa_member_manifest.json": "5591cad376b6a0656f99d1ca8dce96e445da8573b3b9737cd2f932bab83cc1db"
+  },
+  "evaluator_code_sha256": "00df4e5f18d81bafb0bce62b59aa1ce1d8c655cd395907882136be12b8d7a930"
+}

@@ -1,0 +1,12 @@
+Quantity,Value
+Nominal fitting blocks available,"102,085"
+Fitting windows used,"29,242"
+Calibration blocks,"18,216"
+Nominal calibration blocks,"17,876"
+Confirmation channel-blocks,"72,270"
+Positive confirmation blocks,"3,275"
+Rare-only positive blocks,"3,271"
+Blocks with a true-anomaly annotation,4
+Distinct rare-event IDs,200
+Distinct true-anomaly IDs,1
+Non-finite blocks excluded (all periods),11

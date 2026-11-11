@@ -1,0 +1,20 @@
+{
+  "run_id": "20261108T181639Z",
+  "python": "3.13.18",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "cpu": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+  "numpy": "2.4.6",
+  "pandas": "2.2.3",
+  "scikit-learn": "1.6.1",
+  "tensorflow": "2.20.0",
+  "tensorflow-cpu": null,
+  "keras": "3.13.2",
+  "ai-edge-litert": "2.3.0",
+  "remotezip": "0.12.6",
+  "matplotlib": "3.10.0",
+  "inference_runtime": "LiteRT 2.3.0",
+  "intra_op_threads": 2,
+  "inter_op_threads": 1,
+  "op_determinism": true,
+  "gpu": "disabled"
+}

@@ -1,0 +1,5 @@
+Cohort,Model,"FP32, own max-F1 threshold","INT8, own max-F1 threshold","INT8, FP32 threshold transferred","FP32, nominal P99","INT8, nominal P99"
+OPS-SAT validation,LSTM,0.7962,0.7085,0.5343,0.7825,0.6714
+OPS-SAT validation,Dense,0.8049,0.8015,0.7823,0.7828,0.7827
+ESA confirmation,LSTM,0.3249,0.3309,0.3370,0.3528,0.3326
+ESA confirmation,Dense,0.3178,0.3314,0.3308,0.3515,0.3724

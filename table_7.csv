@@ -1,0 +1,5 @@
+Cohort,Model,FP32 file (bytes),INT8 file (bytes),INT8 floating tensors,Default-quantizer floating tensors (diagnostic),Median latency FP32 / INT8 (µs),INT8 input clipping
+OPS-SAT,LSTM,"58,876","76,176, 76,336",0,"0, 0, 5",35.1 / 33.9,0.000%
+OPS-SAT,Dense,"4,140","5,112",0,"0, 0, 0",3.1 / 3.0,0.000%
+ESA,LSTM,"58,876","75,976, 76,336",0,"0, 0, 0",37.3 / 33.7,0.331%
+ESA,Dense,"4,140","5,112",0,"0, 0, 0",3.1 / 3.0,0.331%

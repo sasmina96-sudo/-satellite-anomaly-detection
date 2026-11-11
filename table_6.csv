@@ -1,0 +1,8 @@
+Model,Condition,Mean F1,Mean recall
+LSTM,"FP32, own max-F1 threshold",0.0311,0.1667
+LSTM,"INT8, own max-F1 threshold",0.0659,0.2500
+Dense,"FP32, own max-F1 threshold",0.0304,0.1667
+Dense,"INT8, own max-F1 threshold",0.0304,0.1667
+PCA4,"baseline, max-F1",0.0606,0.2500
+ZScore,"baseline, max-F1",0.1538,0.5000
+Persistence,"baseline, max-F1",0.0290,0.2500
