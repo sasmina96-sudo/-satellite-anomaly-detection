@@ -4,7 +4,7 @@ Code and results for the paper
 
 **"Edge AI Optimization for Satellite Telemetry Anomaly Detection: INT8 Autoencoders, Energy Estimates and Downlink Savings on OPS-SAT and ESA Mission 2"**
 Asmina S, Independent Researcher, Kerala, India
-
+Preprint: https://doi.org/10.5281/zenodo.24143856
 The study compares compact LSTM (3,281 parameters) and dense (428 parameters) telemetry autoencoders in FP32 and fully integer INT8 form (LiteRT), and asks what onboard anomaly detection saves in power and downlink.
 
 ## Main results (run `20261108T181639Z`)
